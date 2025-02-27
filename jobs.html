@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Listings</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+    <input type="text" id="search" placeholder="Search jobs..." onkeyup="searchJobs()">
+    <ul id="job-list">
+        <li><a href="job-detail.html?id=1">Software Developer</a></li>
+        <li><a href="job-detail.html?id=2">Marketing Specialist</a></li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
